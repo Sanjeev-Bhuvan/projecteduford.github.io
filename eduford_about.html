@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleseduford.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Eduford</title>
+</head>
+<body>
+    <div class="sub_header">
+        <nav>
+            <a href="eduford.html"><img src="edufordimg/logo.png" alt=""></a>
+            <div class="navbar" id="navibar">
+                <div class="close" onclick="hidemenu()"><p>x</p></div>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="eduford_about.html">ABOUT</a></li>
+                    <li><a href="eduford_course.html">COURSE</a></li>
+                    <li><a href="eduford_blog.html">BLOG</a></li>
+                    <li><a href="eduford_contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="container" onclick="showmenu()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div> 
+        </nav>
+        <h1>About Us</h1>
+    </div>
+    <div class="about_us">
+        <div class="row">
+            <div class="about_col">
+                <h1>Top Ranking University</h1>
+                <p>Eduford is one of the top ranking universities in the World with over 52,000 full time students and more than 3200 faculty across all the campuses - New York, Washington, London Campus offering a wide range of undergraduate, postgraduate and doctoral programs in six Faculties – Engineering & Technology, Management, Medicine & Health sciences, Science & Humanities, Law and Agricultural Sciences</p>
+                <a href="" class="button about_button">EXPLORE NOW</a>
+            </div>
+            <div class="about_col">
+                <img src="edufordimg/about.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="end">
+        <h1>About Us</h1>
+        <p>By connecting students all over the world to the best instructors,<br>Eduford is helping individuals reach their goals and pursue their dreams.</p>
+        <div class="icons">
+            <h4>Eduford's Social Presences</h4>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube-play"></i>
+        </div>
+        <p class="copyright">Copyright<i class="fa fa-copyright"></i>2021 Eduford.All Rights Reserved.</p>
+    </div>
+    <p class="developer">Made with <i class="fa fa-heart"></i> By San² Developers.</p>
+     <!------java script for toggle menu-->
+    <script>
+        var navibar=document.getElementById("navibar");
+        function showmenu(){
+            navibar.style.right="0";
+        }
+        function hidemenu(){
+            navibar.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
