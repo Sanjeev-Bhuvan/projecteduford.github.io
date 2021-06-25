@@ -453,6 +453,7 @@ h1{
 .our_course_col img{
     margin: 10px;
     border-radius: 10px;
+    width:100%;
 }
 @media(max-width:800px){
     .our_course_col{
