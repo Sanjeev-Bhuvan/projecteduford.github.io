@@ -459,6 +459,9 @@ h1{
     .our_course_col{
         flex-direction: column;
     }
+     .our_course_col img{
+        width: 100%;
+    }
 }
 /*-----Blog------*/
 .blog h3{
