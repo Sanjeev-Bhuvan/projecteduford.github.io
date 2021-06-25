@@ -385,8 +385,7 @@ h1{
 .sub_header{
     min-height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.7)),url("https://media.istockphoto.com/vectors/graduates-throwing-cap-silhouette-high-achievements-school-student-vector-id1136299611?k=6&m=1136299611&s=612x612&w=0&h=HR4syh_Q6eQAiMn_80w28Mb9JjltjIh6TqlaU7pubIU=");
-    background-position: center;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.7)),url("https://media.istockphoto.com/photos/silhouette-of-graduating-students-throwing-caps-in-the-air-picture-id1226201585?k=6&m=1226201585&s=612x612&w=0&h=c3ifYMchKZfta_5syeaY_qYZyDj_kHsWURiEZyWVzfo=");
     background-size: cover;
     text-align: center;
     color: white;
